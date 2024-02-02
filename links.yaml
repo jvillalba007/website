@@ -3,7 +3,7 @@ config:
   name: Javier Villalba
   description: |
     Ingeniería en Sistemas de Información <br>
-    UTN Facultad Regional Buenos Aires
+    UTN FRBA
   avatar: FotoPerfil.jpeg
   background: 
   background_opacity: 0.7
