@@ -1,0 +1,61 @@
+config:
+  title: "Javier Villalba"
+  name: Javier Villalba
+  description: |
+    Ingeniería en Sistemas de Información <br>
+    UTN Facultad Regional Buenos Aires
+  avatar: FotoPerfil.jpeg
+  background: 
+  background_opacity: 0.7
+  qrcode: qrcode_white.png
+  robots: none
+  favicon: favicon.ico
+  touchicon: apple-touch-icon.png
+
+links:
+  - title: Principal
+    links:
+      - text: Email
+        icon: fa-solid fa-envelope
+        href: "mailto:ing.jvillalba@gmail.com"
+        copy: "ing.jvillalba@gmail.com"
+        info: Correo Electrónico Oficial para Asuntos Profesionales
+      - text: Currículum Vitae
+        icon: fas fa-id-card
+        href: https://cv.jvillalba007.pp.ua
+        info: Currículum Vitae en formato Digital/Online
+        copy: "https://cv.jvillalba007.pp.ua"
+
+  - title: Socials
+    links:
+      - text: LinkedIn
+        icon: fa-brands fa-linkedin
+        href: https://www.linkedin.com/in/jvillalba007
+      - text: GitHub
+        icon: fa-brands fa-github
+        href: https://github.com/jvillalba007
+      - text: Instagram
+        icon: fa-brands fa-instagram
+        href: https://www.instagram.com/jvillalba007
+      - text: Twitch
+        icon: fab fa-twitch
+        href: https://www.twitch.tv/2B_Ashford
+
+  - title: Gaming
+    links:
+      - text: "Discord"
+        icon: fa-brands fa-discord
+        href: https://discordapp.com/users/421460331622170650
+        copy: jvillalba007
+      - text: "Steam"
+        icon: fa-brands fa-steam
+        href: https://steamcommunity.com/id/jvillalba007
+      - text: "Xbox Gamertag"
+        icon: fa-brands fa-xbox
+        copy: jvillalba007
+
+  - title: Music
+    links:
+      - text: Spotify
+        icon: fa-brands fa-spotify
+        href: https://open.spotify.com/user/31cwqfdzia5qdiggpwqh4dtxwgsq

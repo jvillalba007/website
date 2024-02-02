@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name='robots' content='none' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javier Villalba</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+	html {
+	     background: radial-gradient(at left top, rgba(13, 68, 153, 1.0), rgba(190, 2, 49, 1.0)), rgba(13, 68, 153, 1.0);
+	}
+	 html,body {
+	     height: auto;
+	}
+	 body {
+	     margin: 0;
+	}
+  </style>
+  <script src="https://kit.fontawesome.com/6bee25835f.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="120x120">
+</head>
+
+<body>
+  <a class="profilePicture">
+    <img src="FotoPerfil.jpeg" alt="Profile Picture">
+  </a>
+ 
+  <div class="userName">
+    Javier Villalba
+  </div>
+  <div class="description">
+    Ingeniería en Sistemas de Información <br>
+UTN Facultad Regional Buenos Aires
+
+  </div>
+    <div id="Principal" class="sectionTitle">
+      Principal
+    </div>
+    <div class="links">
+          <a class="link"
+          href="mailto:ing.jvillalba@gmail.com" target="_blank">
+            <div class="tooltip hidden min">
+              <i class="fa-solid fa-copy"></i>
+            </div>
+            <div class="inline-block">
+              <i class="fa-solid fa-envelope"></i> Email
+              <div class="info">Correo Electrónico Oficial para Asuntos Profesionales</div>
+            </div>
+            <div class="tooltip min">
+              <span class="" href="#" onclick="copytext('ing.jvillalba@gmail.com','AJfsIihtysgKnGRo')" onmouseout="outFunc('AJfsIihtysgKnGRo')">
+                <span class="tooltiptext-left" id="AJfsIihtysgKnGRo">Copy to clipboard</span>
+                <i class="fa-solid fa-copy"></i>
+              </span>
+            </div>
+          </a>
+          <a class="link"
+          href="https://cv.jvillalba007.pp.ua" target="_blank">
+            <div class="tooltip hidden min">
+              <i class="fa-solid fa-copy"></i>
+            </div>
+            <div class="inline-block">
+              <i class="fas fa-id-card"></i> Currículum Vitae
+              <div class="info">Currículum Vitae en formato Digital/Online</div>
+            </div>
+            <div class="tooltip min">
+              <span class="" href="#" onclick="copytext('https://cv.jvillalba007.pp.ua','CotuZsBcAZwHpzud')" onmouseout="outFunc('CotuZsBcAZwHpzud')">
+                <span class="tooltiptext-left" id="CotuZsBcAZwHpzud">Copy to clipboard</span>
+                <i class="fa-solid fa-copy"></i>
+              </span>
+            </div>
+          </a>
+    </div>
+    <div id="Socials" class="sectionTitle">
+      Socials
+    </div>
+    <div class="links">
+        <a class="link"
+        href="https://www.linkedin.com/in/jvillalba007" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a class="link"
+        href="https://github.com/jvillalba007" target="_blank">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a class="link"
+        href="https://www.instagram.com/jvillalba007" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a class="link"
+        href="https://www.twitch.tv/2B_Ashford" target="_blank">
+          <i class="fab fa-twitch"></i> Twitch
+        </a>
+    </div>
+    <div id="Gaming" class="sectionTitle">
+      Gaming
+    </div>
+    <div class="links">
+          <a class="link"
+          href="https://discordapp.com/users/421460331622170650" target="_blank">
+            <div class="tooltip hidden min">
+              <i class="fa-solid fa-copy"></i>
+            </div>
+            <div class="inline-block">
+              <i class="fa-brands fa-discord"></i> Discord
+            </div>
+            <div class="tooltip min">
+              <span class="" href="#" onclick="copytext('jvillalba007','rDdnCOECtBMhkybQ')" onmouseout="outFunc('rDdnCOECtBMhkybQ')">
+                <span class="tooltiptext-left" id="rDdnCOECtBMhkybQ">Copy to clipboard</span>
+                <i class="fa-solid fa-copy"></i>
+              </span>
+            </div>
+          </a>
+        <a class="link"
+        href="https://steamcommunity.com/id/jvillalba007" target="_blank">
+          <i class="fa-brands fa-steam"></i> Steam
+        </a>
+        <div class="tooltip block">
+        <a class="link" href="#" onclick="copytext('jvillalba007','souGYalYHhTazTjt')" onmouseout="outFunc('souGYalYHhTazTjt')">
+          <span class="tooltiptext" id="souGYalYHhTazTjt">Copy to clipboard</span>
+          <i class="fa-brands fa-xbox"></i> Xbox Gamertag
+        </a>
+        </div>
+    </div>
+    <div id="Music" class="sectionTitle">
+      Music
+    </div>
+    <div class="links">
+        <a class="link"
+        href="https://open.spotify.com/user/31cwqfdzia5qdiggpwqh4dtxwgsq" target="_blank">
+          <i class="fa-brands fa-spotify"></i> Spotify
+        </a>
+    </div>
+
+  <footer>
+    <div class="qrcode"><img src="qrcode_white.png" /></div>
+    <div class="footer">Last updated: 2024-02-02 05:11:27.370820</div>
+  </footer>
+
+</body>
+<script>
+  function copytext(val, linkid) {
+    event.preventDefault();
+    console.log(val);
+    navigator.clipboard.writeText(val);
+    var tooltip = document.getElementById(linkid);
+    tooltip.innerHTML = "Copied: " + val;
+  }
+
+  function outFunc(linkid) {
+    var tooltip = document.getElementById(linkid);
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+</script>
+</html>
