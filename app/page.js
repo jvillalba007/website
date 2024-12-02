@@ -34,8 +34,8 @@ const SocialButton = ({ icon, label, link, variant }) => (
   </Button>
 );
 
-const GamingButton = ({ icon, label, link }) => (
-  <Button variant="secondary" href={link} target="_blank" className="d-flex align-items-center justify-content-center">
+const GamingButton = ({ icon, label, link, variant }) => (
+  <Button variant={variant} href={link} target="_blank" className="d-flex align-items-center justify-content-center">
     {icon}
     <span className="ms-2">{label}</span>
   </Button>
@@ -71,9 +71,9 @@ export default function Home() {
 
                 <Card.Title className="mt-0">Gaming</Card.Title>
                 <div className="button-group">
-                  <GamingButton icon={<FaDiscord />} label={data.gaming.discord.username} />
-                  <GamingButton icon={<FaSteam />} label={data.gaming.steam.username} link={data.gaming.steam.link}  />
-                  <GamingButton icon={<FaXbox />} label={data.gaming.xbox.username} />
+                  <GamingButton icon={<FaDiscord />} label={data.gaming.discord.username} variant="secondary"/>
+                  <GamingButton icon={<FaSteam />} label={data.gaming.steam.username} link={data.gaming.steam.link} variant="warning"  />
+                  <GamingButton icon={<FaXbox />} label={data.gaming.xbox.username} variant="secondary"/>
                 </div>
 
                 <hr className="separator" />
