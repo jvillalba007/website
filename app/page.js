@@ -1,6 +1,5 @@
 'use client'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './global.css'
+
 import { Container, Row, Col, Card, Button, Image } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitch, FaSpotify, FaDiscord, FaSteam, FaXbox } from 'react-icons/fa';
 

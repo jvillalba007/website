@@ -1,4 +1,5 @@
-import './global.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './global.css'
 
 export const metadata = {
   title: "Javier Villalba",
