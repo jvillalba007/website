@@ -19,7 +19,7 @@ const data = {
   },
   gaming: {
     discord: { username: 'jvillalba007' },
-    steam: { link: 'https://steamcommunity.com/id/jvillalba007', username: 'jvillalba007' },
+    steam: { link: 'https://steamcommunity.com/id/jvillalba007', username: '2B_Ashford' },
     xbox: { username: 'jvillalba007' }
   },
   qrCode: '/qr-code.png',
