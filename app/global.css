@@ -96,3 +96,9 @@ body {
   color: white;
   border: none;
 }
+
+.frase {
+  font-size: 14px; /* Define el tamaño del texto */
+  font-weight: bold;
+  text-transform: uppercase;
+}

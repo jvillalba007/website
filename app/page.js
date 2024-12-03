@@ -23,8 +23,8 @@ const data = {
     xbox: { username: 'jvillalba007' }
   },
   qrCode: '/qr-code.png',
-  version: '1.0.0',
-  versionDate: '02/12/2024'
+  copy: '© 2024 - LinkTree by Javier Villalba',
+  frase: 'Engineering with ♥ from Buenos Aires to the World'
 };
 
 const SocialButton = ({ icon, label, link, variant }) => (
@@ -88,7 +88,8 @@ export default function Home() {
               </Card.Body>
               <Card.Footer>
                 <Image src={data.qrCode} alt="Código QR" className="mb-2" />
-                <p>Versión: {data.version} - Fecha: {data.versionDate}</p>
+                <p className="mb-1">{data.copy}</p>
+                <p className="frase">{data.frase}</p>
               </Card.Footer>
             </Card>
           </Col>
