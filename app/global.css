@@ -47,4 +47,52 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-  }  
+  }
+
+.btn-instagram {
+  background-color: #C13584; /* Color sólido de Instagram */
+  color: white;
+  border: none;
+}
+
+.btn-discord {
+  background-color: #7289DA; /* Color icónico de Discord */
+  color: white;
+  border: none;
+}
+
+.btn-xbox {
+  background-color: #107C10; /* Color icónico de Xbox */
+  color: white;
+  border: none;
+}
+
+.btn-spotify {
+  background-color: #1DB954; /* Color icónico de Spotify */
+  color: white;
+  border: none;
+}
+
+.btn-steam {
+  background-color: #171A21; /* Color icónico de Steam */
+  color: white;
+  border: none;
+}
+
+.btn-github {
+  background-color: #24292e; /* Color icónico de GitHub */
+  color: white;
+  border: none;
+}
+
+.btn-linkedin {
+  background-color: #0077B5; /* Color icónico de LinkedIn */
+  color: white;
+  border: none;
+}
+
+.btn-twitch {
+  background-color: #9146FF; /* Color icónico de Twitch */
+  color: white;
+  border: none;
+}

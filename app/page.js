@@ -61,26 +61,26 @@ export default function Home() {
 
                 <Card.Title className="mt-0">Redes Sociales</Card.Title>
                 <div className="button-group">
-                  <SocialButton icon={<FaLinkedin />} label={data.socials.linkedin.username} link={data.socials.linkedin.link} variant="primary" />
-                  <SocialButton icon={<FaGithub />} label={data.socials.github.username} link={data.socials.github.link} variant="dark" />
-                  <SocialButton icon={<FaInstagram />} label={data.socials.instagram.username} link={data.socials.instagram.link} variant="light" />
-                  <SocialButton icon={<FaTwitch />} label={data.socials.twitch.username} link={data.socials.twitch.link} variant="warning" />
+                  <SocialButton icon={<FaLinkedin />} label={data.socials.linkedin.username} link={data.socials.linkedin.link} variant="linkedin" />
+                  <SocialButton icon={<FaGithub />} label={data.socials.github.username} link={data.socials.github.link} variant="github" />
+                  <SocialButton icon={<FaInstagram />} label={data.socials.instagram.username} link={data.socials.instagram.link} variant="instagram" />
+                  <SocialButton icon={<FaTwitch />} label={data.socials.twitch.username} link={data.socials.twitch.link} variant="twitch" />
                 </div>
 
                 <hr className="separator" />
 
                 <Card.Title className="mt-0">Gaming</Card.Title>
                 <div className="button-group">
-                  <GamingButton icon={<FaDiscord />} label={data.gaming.discord.username} variant="secondary"/>
-                  <GamingButton icon={<FaSteam />} label={data.gaming.steam.username} link={data.gaming.steam.link} variant="warning"  />
-                  <GamingButton icon={<FaXbox />} label={data.gaming.xbox.username} variant="secondary"/>
+                  <GamingButton icon={<FaDiscord />} label={data.gaming.discord.username} variant="discord"/>
+                  <GamingButton icon={<FaSteam />} label={data.gaming.steam.username} link={data.gaming.steam.link} variant="steam"  />
+                  <GamingButton icon={<FaXbox />} label={data.gaming.xbox.username} variant="xbox"/>
                 </div>
 
                 <hr className="separator" />
 
                 <Card.Title className="mt-0">Música</Card.Title>
                 <div className="button-group">
-                  <Button variant="info" href={data.socials.spotify.link} target="_blank" className="d-flex align-items-center justify-content-center">
+                  <Button variant="spotify" href={data.socials.spotify.link} target="_blank" className="d-flex align-items-center justify-content-center">
                     <FaSpotify />
                     <span className="ms-2">{data.socials.spotify.username}</span>
                   </Button>
