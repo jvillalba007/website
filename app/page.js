@@ -8,22 +8,22 @@ const data = {
   avatar: '/avatar.jpeg',
   carrera: 'Ingeniería en Sistemas de Información',
   universidad: 'UTN FRBA',
-  mail: 'ing.jvillalba@gmail.com',
+  mail: 'vvillalbacaceres@frba.utn.edu.ar',
   cv: 'https://cv.jvillalba007.pp.ua',
   socials: {
     linkedin: { link: 'https://www.linkedin.com/in/jvillalba007', username: 'LinkedIn' },
     github: { link: 'https://github.com/jvillalba007', username: 'GitHub' },
     instagram: { link: 'https://www.instagram.com/jvillalba007', username: 'Instagram' },
-    twitch: { link: 'https://www.twitch.tv/2B_Ashford', username: 'Twitch' },
+    twitch: { link: 'https://www.twitch.tv/2B_007', username: 'Twitch' },
     spotify: { link: 'https://open.spotify.com/user/31cwqfdzia5qdiggpwqh4dtxwgsq', username: 'Spotify' }
   },
   gaming: {
     discord: { username: 'jvillalba007' },
-    steam: { link: 'https://steamcommunity.com/id/jvillalba007', username: '2B_Ashford' },
+    steam: { link: 'https://steamcommunity.com/id/jvillalba007', username: '2B_007' },
     xbox: { username: 'jvillalba007' }
   },
   qrCode: '/qr-code.png',
-  copy: '© 2024 - LinkTree by Javier Villalba',
+  copy: '© 2025 - LinkTree by Javier Villalba',
   frase: 'Engineering with ♥ from Buenos Aires to the World'
 };
 
@@ -53,7 +53,7 @@ export default function Home() {
                 <Card.Title>Javier Villalba</Card.Title>
                 <Card.Text>{data.carrera}<br/>{data.universidad}</Card.Text>
                 <div className="button-group">
-                  <Button variant="success" href={`mailto:${data.mail}`}>Email: {data.mail}</Button>
+                  <Button variant="success" href={`mailto:${data.mail}`}>{data.mail}</Button>
                   <Button variant="danger" href={data.cv}>Currículum Vitae (CV)</Button>
                 </div>
 
